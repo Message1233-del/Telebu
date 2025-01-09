@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TELEBIRR LOGIN PAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .topoftop{
+      background-color:#fff;
+    }
+      .photo{
+        width:75px;
+        height:75px;
+        vertical-align: top;
+       margin-left:-11px;
+        margin-top:-40px;
+        
+      }
+      .two{
+        width:50px;
+        height:50px;
+        margin-top:-26px;
+        margin-right:-81px;
+        margin-left:250px;
+      }
+      .container{
+        width:250px;
+        height:50px;
+        border:none;
+        overflow:hidden;
+        margin-left:60px;
+        margin-top:80px;
+      }
+      .wel{
+        font-size:18.5px;
+        animation:rotate 7s linear infinite;
+        color:#3095e0;
+        white-space:nowrap;
+        font-weight:1000;
+        text-align:center;
+        font-style:roboto;
+      }
+      @keyframes rotate{
+        from{
+          transform:translateX(100%);
+        }
+        to{
+          transform:translateX(-100%);
+        }
+      }
+      .eng{
+        font-weight:1000;
+        color:black;
+        margin-top:9px;
+        margin-left:280px;
+      }
+      .one{
+        font-weight:1000;
+        color:#3095e0;
+        font-size:14px;
+        margin-left:150px;
+        margin-top:14px;
+        font-style:Roboto;
+      }
+      .login{
+        color:black;
+        font-size:23px;
+        font-style:Roboto;
+        margin-left:155px;
+        margin-top:21px;
+      }
+      .eth{
+        border-top-right-radius:0px;
+        border-right-width:0px;
+        background-color:white;
+        margin-left:20px;
+        border-top-left-radius:7px;
+        border-bottom-left-radius:7px;
+        height:48.4px;
+        border-left-color:#949191;
+        border-top-color:#949191;
+        border-bottom-color:#949191;
+        border:solid #949191;
+        border-right-width:0px;
+        border-top-width:3px;
+        border-left-width:3px;
+        border-bottom-width:3px;
+        outline:none border-right-width:0px;;
+      }
+      .eth:focus{
+        border-top-color:#abe44a;
+        border-bottom-color:#abe44a;
+        border-left-color:#abe44a;
+        border-right-color:white;
+      }
+      .phone{
+        width:270px;
+        border-left-width:0px;
+        border-top-right-radius:7px;
+        border-bottom-right-radius:7px;
+        height:41px;
+        border-top-color:#949191;
+        border-right-color:#949191;
+        border:solid #949191 ;
+        border-top-color:#949191;
+        border-width:3px;
+        outline: none border-left-color:white; border-left-width: 0px;;
+      }
+      .phone:focus{
+        border-top-color:#abe44a;
+        border-bottom-color:#abe44a;
+        border-right-color:#abe44a;
+        border-top-width: #abe44a;
+        border-right-width: #abe44a;
+        border-bottom-width: #abe44a;
+        border-left-width:0px;
+        outline: none;
+      }
+      .mob{
+        color:#4b4545;
+        font-size:13px;
+        margin-left:40px;
+      }
+      .next{
+        background-color:#69c1f73a;
+        color:white;
+        width:320px;
+        height:49px;
+        border:none;
+        border-radius:10px;
+        margin-left:20px;
+        font-size:19px;
+        margin-top:20px;
+      }
+      .all-mid{
+        margin-top:-50px;
+      }
+      .dont{
+        font-size:12px;
+        color: black;
+        font-weight:300;
+        margin-left:50px;
+      }
+      .create{
+        font-size:12px;
+        color:#abe44a;
+        margin-left:200px;
+        margin-top:-25px;
+      }
+      .boto{
+        margin-top:-10px;
+      }
+      .tele{
+        color:#abe44a;
+        font-size:12px;
+        margin-top:30px;
+        margin-left:90px;
+      }
+      .help{
+        font-size:12px;
+        color:#abe44a;
+        margin-left:240px;
+        margin-top:-24.5px;
+      }
+      .terms{
+        font-size:12px;
+        color:#abe44a;
+        margin-top:160px;
+        margin-left:125px;
+      }
+      .ethio{
+        color:#aaaaaa;
+        width:300px;
+        font-size:13.4px;
+        text-align: center;
+        margin-left:40px;
+        margin-top:1px;
+      }
+      .mid-tele{
+        background-image: <img src="Telebu.jpg" alt="">;
+        height:700px;
+        margin-top:0px;
+        position: fixed;
+        width:400px;
+        
+      }
+      body{
+        background-image: url('Telebu.jpg');
+        background-size:cover;
+        background-position:180deg ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topoftop">
+    <img class="photo" src="Ethiotelecom.png" alt="">
+    <img class="two" src="Telebirr.png" alt="">
+    </div>
+    <div class="mid-tele">
+    <div>
+      <p class="eng">English</p>
+    </div>
+    <div class="all-mid">
+    <div>
+      <div class="container">
+        <p class="wel">Welecome to telebirr super App!</p>
+        
+      </div>
+      <p class="one">All-in-One</p>
+    </div>
+    <div>
+      <p class="login">Login</p>
+      <hr style=" border-width:1.599px; border-color:#abe44a; width:60px; margin-left:155px; margin-top:-16.4px;">
+    </div>
+    <div>
+      <p class="mob">Mobile Number</p>
+      <button id="ethi" class="eth">+251</button><input id="number" type="number" class="phone" id="phonen" maxlength="9" placeholder="Enter Mobile Number" onkeyup="updatebutton();" required><br><br>
+      <button id="nextbutton" class="next">Next</button><br><br>
+      </div>
+    </div>
+    <div class="boto">
+      <p class="dont">Don't have an account?</p>
+      <p class="create"><a>Create New Account</a></p>
+      <p class="tele"><a>teleHub</a></p>
+      <p class="help"><a>Help</a></p>
+    </div>
+    <div class="bott">
+      <p class="terms">Terms and Conditions</p>
+      <p class="ethio">@2023 Ethio telecom.All rights reserved 1.0.0 version</p>
+    </div>
+    </div>
+    <script>
+      var gago = document.querySelector('.phone');
+      function updatebutton() {
+        let text = gago.value;
+        let textAmount = text.length;
+        if (textAmount === 9 || textAmount === 10) {
+          document.querySelector('.next').style.backgroundColor = '#3c91ee';
+          document.querySelector('.phone').href = 'telebirr2';
+        } else {
+          document.querySelector('.next').style.backgroundColor = '#69c1f73a';
+          document.querySelector('.next').href = 'Telebirr.html';
+        }
+      } 
+      function updateth () {
+      document.querySelector('.phone').addEventListener('focus', function() {
+        document.querySelector('.eth').style.borderTopColor = '#abe44a';
+        document.querySelector('.eth').style.borderLeftColor = '#abe44a';
+        document.querySelector('.eth').style.borderBottomColor = '#abe44a';
+      });
+      }
+      if (document.querySelector('.phone').style.borderTopColor === '#949191') {
+        document.querySelector('.eth').style.borderTopColor = '#949191';
+        document.querySelector('.eth').style.borderBottomColor = '#949191';
+        document.querySelector('.eth').style.borderLeftColor = '#949191';
+      } else {
+        updateth();
+      }
+      gago.addEventListener("input", () => {
+        const value = gago.value;
+        if (value.toString().length > 10) {
+          gago.value = value.toString().slice(0, 10);
+        }
+      });
+    </script>
+  </body>
+</html>
